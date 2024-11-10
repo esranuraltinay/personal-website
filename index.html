@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esra'nın Kişisel Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Esra'nın Kişisel Web Sitesi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Hakkımda</h2>
+        <p>Benimle ilgili bilgiler buraya gelecek...</p>
+    </section>
+    
+    <section id="contact">
+        <h2>İletişim</h2>
+        <form action="#">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><a href="https://linkedin.com/in/esranuraltinay" target="_blank">LinkedIn</a> | <a href="https://github.com/esranuraltinay" target="_blank">GitHub</a> | <a href="https://medium.com/@esranuraltinay" target="_blank">Medium</a></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
